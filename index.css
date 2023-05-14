@@ -3,29 +3,21 @@
     padding: 0;
 }
 
-/* vanigation  start*/
-.main {
-    width: 100%;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(/images/cat-dog.jpg);
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-}
-
-.navbar {
-    width: 1200px;
-    height: 75px;
-    margin: auto;
-}
-
 .icon {
     width: 200px;
     float: left;
     height: 70px;
 }
 
-.logo {
+.custom_orange_fg{
     color: #ff7200;
+}
+
+.custom_orange_bg{
+    background: #ff7200;
+}
+
+.logo {
     font-size: 35px;
     font-family: Arial;
     padding-left: 20px;
@@ -88,33 +80,6 @@ ul li a:hover {
     border-top-left-radius: 5px;
 }
 
-.btn {
-    width: 100px;
-    height: 40px;
-    background: #ff7200;
-    border: 2px solid #ff7200;
-    margin-top: 13px;
-    color: #fff;
-    font-size: 15px;
-    border-bottom-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    transition: 0.2s ease;
-    cursor: pointer;
-}
-
-.btn:hover {
-    color: #000;
-}
-
-.btn:focus {
-    outline: none;
-}
-
-.srch:focus {
-    outline: none;
-}
-
-/* end */
 
 /* left side text */
 .content {
@@ -144,7 +109,6 @@ ul li a:hover {
 .content .cn {
     width: 160px;
     height: 40px;
-    background: #ff7200;
     border: none;
     margin-bottom: 10px;
     margin-left: 20px;
@@ -166,39 +130,11 @@ ul li a:hover {
 }
 
 .content span {
-    color: #ff7200;
     font-size: 65px
 }
 
-/* end */
 
-/* login and signup page */
-.form {
-    width: 250px;
-    height: 380px;
-    background: linear-gradient(to top, rgba(0, 0, 0, 0.8)50%, rgba(0, 0, 0, 0.8)50%);
-    position: absolute;
-    top: -20px;
-    left: 870px;
-    transform: translate(0%, -5%);
-    border-radius: 10px;
-    padding: 25px;
-}
-
-
-.form h2 {
-    width: 220px;
-    font-family: sans-serif;
-    text-align: center;
-    color: #ff7200;
-    font-size: 22px;
-    background-color: #fff;
-    border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
-}
-
-.form input {
+.custom_orange_input {
     width: 240px;
     height: 35px;
     background: transparent;
@@ -259,7 +195,7 @@ input.hh {
 }
 
 #lightbox:target {
-    height: 120%;
+    height: 140%;
     width: 100%;
     text-align: center;
     background-color: rgb(8, 8, 8);
@@ -272,19 +208,7 @@ input.hh {
 }
 
 
-.form .link {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 17px;
-    padding-top: 20px;
-    text-align: center;
-}
-
-.form .link a {
-    text-decoration: none;
-    color: #ff7200;
-}
-
-.form .link a:hover {
+.link-hover-white:hover {
     text-decoration: underline;
     color: #f4f2f1;
 }
