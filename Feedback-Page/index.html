@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Page</title>
+  <link rel="stylesheet" href="index.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Feedback Form</h1>
+    <form id="feedbackForm">
+      <div class="form-group">
+        <label for="feedbackName">Name:</label>
+        <input type="text" id="feedbackName" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="feedbackEmail">Email:</label>
+        <input type="email" id="feedbackEmail" class="form-control" required>
+      </div>
+      <div class="form-group">
+        <label for="feedbackMessage">Message:</label>
+        <textarea id="feedbackMessage" class="form-control" required></textarea>
+      </div>
+      <div>
+        <button type="submit" class="btn">Submit Feedback</button>
+      </div>
+    </form>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
